@@ -11,7 +11,6 @@ export default function Card({ info, handleChangeFavorites }) {
 
   const handleGoDetails = () => {
     const id = info.id;
-    console.log("id: ", id);
     navigation.navigate("Details", { id });
   };
 
@@ -31,7 +30,6 @@ export default function Card({ info, handleChangeFavorites }) {
     const edited = editData(update);
     if (edited) {
       setFavorites(favorites + 1);
-      console.log("Se actualizó correctamente");
       handleChangeFavorites();
     }
   };
@@ -41,7 +39,6 @@ export default function Card({ info, handleChangeFavorites }) {
     const edited = editData(update);
     if (edited) {
       setFavorites(favorites - 1);
-      console.log("Se actualizó correctamente");
       handleChangeFavorites();
     }
   };

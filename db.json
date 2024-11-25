@@ -12,7 +12,7 @@
       "name": "Monte Everest 🗻❄️",
       "description": "La montaña más alta del mundo, ubicada en la cordillera del Himalaya.",
       "difficulty": "Difícil",
-      "favorites": 98
+      "favorites": 99
     },
     {
       "id": "3",
@@ -40,7 +40,7 @@
       "name": "Parque Nacional Yellowstone 🐻🌲",
       "description": "El primer parque nacional del mundo, conocido por sus géiseres y fauna.",
       "difficulty": "Fácil",
-      "favorites": 113
+      "favorites": 111
     },
     {
       "id": "7",
@@ -55,13 +55,6 @@
       "description": "Un fenómeno natural espectacular visible en el cielo nocturno ártico.",
       "difficulty": "Fácil",
       "favorites": 140
-    },
-    {
-      "id": "25ba",
-      "name": "pepe",
-      "description": "aa",
-      "difficulty": "Difícil",
-      "favorites": 5
     }
   ]
 }

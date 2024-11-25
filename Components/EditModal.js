@@ -15,8 +15,6 @@ import DropdownComponent from "./Dropdown";
 const EditModal = ({ onClose, current_data }) => {
   const editData = useEditData(url);
   const [updatedData, setUpdatedData] = useState({});
-  const [favorites, setFavorites] = useState(current_data.favorites);
-  console.log(current_data);
 
   useEffect(() => {
     setUpdatedData(current_data); // ver si tene alguna cosa que se deba castear o algo así
